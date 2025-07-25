@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dance Studio Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Dance Studio Booking</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Classes</a>
+      <a href="#">Schedule</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="booking-form">
+      <h2>Book a Session</h2>
+      <form id="bookingForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <select required>
+          <option value="">Select Class Type</option>
+          <option>Group Dance Class</option>
+          <option>Private Class</option>
+          <option>Studio Rental</option>
+        </select>
+        <input type="date" required>
+        <button type="submit">Book Now</button>
+      </form>
+      <p id="confirmation"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Dance Studio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
